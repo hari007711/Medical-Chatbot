@@ -8,7 +8,8 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
 # List of files to create
 list_of_files = [
     "src/__init__.py",
-    "src/helper/__init__.py",  # assuming helper is a package
+    "src/helper.py",  
+    "src/prompt.py",
     ".env",
     "setup.py",
     "app.py",
